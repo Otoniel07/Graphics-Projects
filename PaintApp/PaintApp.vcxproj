@@ -123,23 +123,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\circles.h" />
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\glut.h" />
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\line.h" />
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\mouse.h" />
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\squares.h" />
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\stdafx.h" />
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\targetver.h" />
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\triangles.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\Schoolwork\Graphics\Project01\Project01\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="glut32.dll" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="glut32.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="circles.h" />
+    <ClInclude Include="glut.h" />
+    <ClInclude Include="line.h" />
+    <ClInclude Include="mouse.h" />
+    <ClInclude Include="squares.h" />
+    <ClInclude Include="triangles.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

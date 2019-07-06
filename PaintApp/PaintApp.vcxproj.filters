@@ -15,37 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\squares.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\triangles.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\circles.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\glut.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\line.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Schoolwork\Graphics\Project01\Project01\mouse.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\Schoolwork\Graphics\Project01\Project01\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="glut32.dll">
       <Filter>Resource Files</Filter>
     </None>
@@ -54,5 +23,30 @@
     <Library Include="glut32.lib">
       <Filter>Resource Files</Filter>
     </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="circles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="squares.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triangles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
