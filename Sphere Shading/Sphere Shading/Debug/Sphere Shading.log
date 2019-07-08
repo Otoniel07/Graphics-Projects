@@ -1,0 +1,3 @@
+﻿  Source.cpp
+  D:\Git Stuff\Graphics-Projects\Sphere Shading\Sphere Shading\Source.cpp(110) : warning C4715: 'calcL': not all control paths return a value
+  Sphere Shading.vcxproj -> D:\Git Stuff\Graphics-Projects\Sphere Shading\Debug\Sphere Shading.exe
